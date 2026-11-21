@@ -1,4 +1,3 @@
-
 # Kelompok 6 - Dataset Multimodal Teks dan Citra Kabut Asap
 
 ## Identitas Kelompok
@@ -16,17 +15,11 @@
 
 ## Deskripsi Proyek
 
-Proyek ini bertujuan membangun dataset multimodal
-yang menggabungkan data citra dan teks mengenai
-fenomena kabut asap.
+Proyek ini bertujuan membangun dataset multimodal yang menggabungkan data citra dan teks mengenai fenomena kabut asap.
 
-Dataset berisi kumpulan gambar kabut asap yang
-dilengkapi dengan deskripsi, lokasi, tanggal,
-kategori, sumber gambar, dan informasi lisensi.
+Dataset berisi kumpulan gambar kabut asap yang dilengkapi dengan deskripsi, lokasi, tanggal, kategori, sumber gambar, dan informasi lisensi.
 
-Dataset ini dapat digunakan sebagai bahan penelitian
-dan pembelajaran dalam bidang pengolahan citra,
-analisis teks, dan kecerdasan buatan (AI).
+Dataset ini dapat digunakan sebagai bahan penelitian dan pembelajaran dalam bidang pengolahan citra, analisis teks, dan kecerdasan buatan (AI).
 
 ## Target Dataset
 
@@ -37,18 +30,19 @@ analisis teks, dan kecerdasan buatan (AI).
 
 ## Struktur Repository
 
+```text
 kelompok-6-dataset-kabut-asap/
-- README.md
-- LICENSE
-- .gitignore
-- dataset/
-  - images/
-  - dataset.csv
-- scripts/
-  - validasi_dataset.py
-  - cek_gambar.py
-- docs/
-  - dokumentasi.md
+├── README.md
+├── LICENSE
+├── .gitignore
+├── dataset/
+│   ├── images/
+│   └── dataset.csv
+├── scripts/
+│   ├── validasi_dataset.py
+│   └── cek_gambar.py
+
+```
 
 ## Cara Mengunduh Dataset
 
@@ -62,46 +56,57 @@ kelompok-6-dataset-kabut-asap/
 
 Install library:
 
+```bash
 pip install pandas pillow
+```
 
 Baca dataset menggunakan Python:
 
+```python
 import pandas as pd
 
 df = pd.read_csv("dataset/dataset.csv")
 
 print(df.head())
+```
 
 ## Cara Menjalankan Validasi
 
+```bash
 python scripts/validasi_dataset.py
+```
 
 ## Cara Memeriksa Gambar Rusak
 
+```bash
 python scripts/cek_gambar.py
+```
 
 ## Pembagian Tugas Kelompok
 
 | Nama | Tugas |
-|---|---|---|
-| Adet | Pengumpulan citra | 
-| Adha | Pembuatan deskripsi teks | 
-| Hafi | Pembuatan dataset dan kode Python | 
-| Alza | Validasi dan dokumentasi | 
+|---|---|
+| Adet | Pengumpulan citra |
+| Adha | Pembuatan deskripsi teks |
+| Hafi | Pembuatan dataset dan kode Python |
+| Alza | Validasi dan dokumentasi |
+
+### Catatan Pengerjaan dan Bukti Kontribusi
+
+Seluruh proses pengerjaan dan pengumpulan file proyek ini dilakukan secara bersama-sama menggunakan satu laptop dan satu akun GitHub sebagai media pengelolaan repository kelompok.
+
+Oleh karena itu, riwayat commit pada GitHub tercatat melalui satu akun yang digunakan bersama dan tidak mencerminkan akun GitHub masing-masing anggota secara terpisah. Dengan demikian, tautan bukti commit individual tidak dapat disediakan.
+
+Meskipun demikian, setiap anggota kelompok memiliki pembagian tugas dan kontribusi masing-masing sesuai dengan tanggung jawab yang telah disepakati bersama.
 
 ## Sumber Dataset
 
-Seluruh sumber gambar dan informasi lisensi
-dicantumkan pada dataset.csv.
+Seluruh sumber gambar dan informasi lisensi dicantumkan pada dataset.csv.
 
 ## Lisensi
 
-Dataset menggunakan lisensi CC BY 4.0
-sepanjang seluruh materi di dalamnya
-memiliki izin untuk didistribusikan dengan lisensi tersebut.
+Dataset menggunakan lisensi CC BY 4.0 sepanjang seluruh materi di dalamnya memiliki izin untuk didistribusikan dengan lisensi tersebut.
 
 ## Penutup
 
-Dataset ini dibuat sebagai proyek tugas Kelompok 6
-dengan tujuan mengembangkan kumpulan data multimodal
-teks dan citra mengenai fenomena kabut asap.
+Dataset ini dibuat sebagai proyek tugas Kelompok 6 dengan tujuan mengembangkan kumpulan data multimodal teks dan citra mengenai fenomena kabut asap.
