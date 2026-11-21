@@ -84,10 +84,10 @@ python scripts/cek_gambar.py
 
 | Nama | Tugas | Bukti Commit |
 |---|---|---|
-| Adet | Pengumpulan citra | [Link Commit](ISI_LINK) |
-| Adha | Pembuatan deskripsi teks | [Link Commit](ISI_LINK) |
-| Hafi | Pembuatan dataset dan kode Python | [Link Commit](ISI_LINK) |
-| Alza | Validasi dan dokumentasi | [Link Commit](ISI_LINK) |
+| Adet | Pengumpulan citra 
+| Adha | Pembuatan deskripsi teks 
+| Hafi | Pembuatan dataset dan kode Python 
+| Alza | Validasi dan dokumentasi 
 
 ## Sumber Dataset
 
