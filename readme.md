@@ -84,10 +84,10 @@ python scripts/cek_gambar.py
 
 | Nama | Tugas |
 |---|---|---|
-| Adet | Pengumpulan citra 
-| Adha | Pembuatan deskripsi teks 
-| Hafi | Pembuatan dataset dan kode Python 
-| Alza | Validasi dan dokumentasi 
+| Adet | Pengumpulan citra | 
+| Adha | Pembuatan deskripsi teks | 
+| Hafi | Pembuatan dataset dan kode Python | 
+| Alza | Validasi dan dokumentasi | 
 
 ## Sumber Dataset
 
