@@ -30,7 +30,6 @@ Dataset ini dapat digunakan sebagai bahan penelitian dan pembelajaran dalam bida
 
 ## Struktur Repository
 
-```text
 kelompok-6-dataset-kabut-asap/
 ├── README.md
 ├── LICENSE
@@ -38,10 +37,9 @@ kelompok-6-dataset-kabut-asap/
 ├── dataset/
 │   ├── images/
 │   └── dataset.csv
-├── scripts/
-│   ├── validasi_dataset.py
-│   └── cek_gambar.py
-
+└── scripts/
+    ├── validasi_dataset.py
+    └── buat_dataset.py
 ```
 
 ## Cara Mengunduh Dataset
