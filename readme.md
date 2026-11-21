@@ -82,7 +82,7 @@ python scripts/cek_gambar.py
 
 ## Pembagian Tugas Kelompok
 
-| Nama | Tugas 
+| Nama | Tugas |
 |---|---|---|
 | Adet | Pengumpulan citra 
 | Adha | Pembuatan deskripsi teks 
