@@ -30,6 +30,7 @@ Dataset ini dapat digunakan sebagai bahan penelitian dan pembelajaran dalam bida
 
 ## Struktur Repository
 
+```text
 kelompok-6-dataset-kabut-asap/
 ├── README.md
 ├── LICENSE
@@ -39,7 +40,8 @@ kelompok-6-dataset-kabut-asap/
 │   └── dataset.csv
 └── scripts/
     ├── validasi_dataset.py
-    └── buat_dataset.py
+    ├── buat_dataset.py
+    └── cek_gambar.py
 ```
 
 ## Cara Mengunduh Dataset
@@ -66,6 +68,14 @@ import pandas as pd
 df = pd.read_csv("dataset/dataset.csv")
 
 print(df.head())
+```
+
+## Cara Membuat Dataset
+
+Jalankan perintah berikut:
+
+```bash
+python scripts/buat_dataset.py
 ```
 
 ## Cara Menjalankan Validasi
